@@ -189,7 +189,7 @@ const Homepage = () => {
           <div
             id="crsr"
             onClick={() => setReelPlay(true)}
-            className=" absolute top-0 left-0  -translate-x-1/2 -translate-y-1/2 w-32 h-32 rounded-full bg-orange  hidden lg:flexCenter select-none"
+            className=" absolute top-0 left-0  -translate-x-1/2 -translate-y-1/2 w-32 h-32 rounded-full bg-orange  invisible md:visible  flexCenter select-none"
           >
             Play reel
           </div>
