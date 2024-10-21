@@ -217,45 +217,20 @@ const Homepage = () => {
         </div>
 
 
-        <div className=" py-4  ">
-          <p className="para1 h-16    md:mb-2   overflow-hidden">
-            <span className="lines inline-block   text-2xl md:text-6xl   ">
-              &nbsp;&nbsp;&nbsp;We are a venture
-              firm and digital agency.&nbsp;
+        <div className=" py-4  flex flex-wrap">
+        {`We are a venture firm and digital agency.Our mission is to transform founders' visions into remarkable brands. Choose  traditional compensation or an equity offset through our Venture Model — your vision, your decision.`.split(' ').map((word,idx)=>(
+            <p className="para1  mb-1 mr-3  overflow-hidden">
+            <span key={idx} className="lines inline-block   text-2xl md:text-6xl   ">
+            {word}
             </span>
             
           </p>
-          <p className="para1 h-16    md:mb-2   overflow-hidden">
-           
-            <span className="lines inline-block   text-2xl md:text-6xl   ">
-            Our mission is to transform founders'  &nbsp;
-            </span>
-            
-            
-          </p>
-          <p className="para1 h-16    md:mb-2   overflow-hidden">
-           
-            <span className="lines inline-block   text-2xl md:text-6xl   ">
-            visions into remarkable brands. Choose  &nbsp;
-            </span>
-           
-          </p>
-          <p className="para1 h-16    md:mb-2   overflow-hidden">
-           
-            <span className="lines inline-block  text-2xl md:text-6xl  ">
-            traditional compensation or an equity offset  &nbsp;
-            </span>
-            
-          </p>
-          <p className="para1 h-16    md:mb-2   overflow-hidden">
-         
-            <span className="lines inline-block    text-2xl md:text-6xl  ">
-             through our Venture Model — your vision, your decision.
-            </span>
-          </p>
-       
-        
-        
+        ))
+
+        }
+          
+          
+    
           <div className="   mb-2  md:h-16 overflow-hidden">
           
           </div>
@@ -274,26 +249,28 @@ const Homepage = () => {
           </h1>
           </div>
 
-          <div className="mt-28">
+          <div className="mt-28   overflow-hidden">
               <div className="justifyBetween border-b-2 border-black py-2 md:py-5">
                 <h5 className="text-sm md:text-2xl">Transforming visions into brands.</h5>
-               <h5 className=" underline-hover-effect-black text-black  flex items-center gap-2 text-sm md:text-2xl"> <IoReturnDownForwardSharp/> See the work</h5> </div>
-               <div className="  flex  flex-row overflow-scroll md:overflow-auto justify-between mt-12 lg:mt-40">
-          <VideoOverlay
-        videoSrc="https://prismic-io.s3.amazonaws.com/rejouice/87835eca-32b7-4eeb-91fc-4ba0dad1fdec_Website-homepage-Work-01_1.mp4"
+               <h5 className=" underline-hover-effect-black text-black  flex items-center gap-2 text-sm md:text-2xl"> <IoReturnDownForwardSharp/> See the work</h5> 
+               </div>
+
+               <div className="w-full h-[50vh]  flex justify-between  overflow-x-scroll   mt-12 lg:mt-40">
+            <VideoOverlay
+             videoSrc="https://prismic-io.s3.amazonaws.com/rejouice/87835eca-32b7-4eeb-91fc-4ba0dad1fdec_Website-homepage-Work-01_1.mp4"
         imageSrc="src/assets/imgs/truck.jpg"
           logoSrc='src/assets/imgs/rivian.avif'
-      />
-      <VideoOverlay
-        videoSrc="https://prismic-io.s3.amazonaws.com/rejouice/3492b027-4212-4103-b2e2-aa702345d784_Website-homepage-Work-02_1.mp4"
+            />
+           <VideoOverlay
+            videoSrc="https://prismic-io.s3.amazonaws.com/rejouice/3492b027-4212-4103-b2e2-aa702345d784_Website-homepage-Work-02_1.mp4"
         imageSrc="src/assets/imgs/oura.jpg"
         logoSrc='src/assets/imgs/oura-svg.svg'
-      />
-      <VideoOverlay
-        videoSrc="https://prismic-io.s3.amazonaws.com/rejouice/363f6760-3496-4638-8fc5-3b5d7711087c_Website-homepage-Work-03_1.mp4"
+           />
+         <VideoOverlay
+           videoSrc="https://prismic-io.s3.amazonaws.com/rejouice/363f6760-3496-4638-8fc5-3b5d7711087c_Website-homepage-Work-03_1.mp4"
         imageSrc="src/assets/imgs/moxon.jpg"
         logoSrc='src/assets/imgs/moxon-svg.svg'
-      />
+         />
 
 
           </div> 
@@ -304,43 +281,29 @@ const Homepage = () => {
       </div>
       <div className="philosophy w-full min-h-screen px-3 lg:px-9 pt-4  my-10 ">
         <div className="justifyBetween  mt-6 overflow-hidden">
-          <h4 className=" philosophy-lines text-xl md:text-3xl flexCenter text-[#0e0e0e]">
+          <h4 className=" philosophy-lines text-lg md:text-3xl flexCenter text-[#0e0e0e]">
             We operate on a simple philosophy:
           </h4>
         </div>
         <div className="justifyBetween border-b-[1px] pb-4 mb-6 border-black overflow-hidden">
-          <h4 className=" philosophy-lines  text-xl md:text-3xl flexCenter text-[#0e0e0e]">
+          <h4 className=" philosophy-lines  text-lg md:text-3xl flexCenter text-[#0e0e0e]">
            Quality over quantity.
           </h4>
         </div>
 
 
-        <div className=" py-4  ">
-          <p className="    mb-2    md:h-16 overflow-hidden">
-            <span className="philosophy-lines text-nowrap inline-block text-3xl md:text-6xl ">
-              &nbsp;&nbsp;&nbsp; We partner with up to 5 clients each year.
+        <div className=" py-4  flex flex-wrap">
+        {` We partner with up to 5 clients each year. This allows intense focus on the transformation and launch of your brand by our very best team, which is the only team we have.  We specialize in  working with startups that are revolutionizing their industries.`.split(' ').map((word,idx)=>(
+            <p className="    mb-1 mr-3  overflow-hidden">
+            <span key={idx} className="philosophy-lines inline-block   text-2xl md:text-6xl   ">
+            {word}
             </span>
+            
           </p>
-          <p className="    mb-2   md:h-16 overflow-hidden">
-            <span className="philosophy-lines inline-block text-3xl md:text-6xl  ">
-            This allows intense focus on the transformation
-            </span>
-          </p>
-          <p className="   mb-2   md:h-16 overflow-hidden " >
-            <span className="philosophy-lines inline-block text-3xl md:text-6xl  ">
-            and launch of your brand by our very best team, 
-            </span>
-          </p>
-          <p className="    mb-2   md:h-16 overflow-hidden">
-            <span className="philosophy-lines inline-block text-3xl md:text-6xl ">
-            which is the only team we have.  We specialize in
-            </span>
-          </p>
-          <div className="    mb-2   md:h-16 overflow-hidden">
-            <span className="philosophy-lines inline-block  text-3xl md:text-6xl ">
-            working with startups that are revolutionizing their industries.
-            </span>
-          </div>
+        ))
+      
+        }
+          
         </div>
 
 
@@ -403,34 +366,22 @@ const Homepage = () => {
           </h4>
         </div>
 
+  
+        <div className=" py-4  flex flex-wrap pb-10">
+        {` Data matters, yet it’s the emotion that drives buying decisions. We don’t believe in ‘one size fits all.’ We craft unique brand experiences that deeply resonate with your audience and boost your KPIs.`.split(' ').map((word,idx)=>(
+            <p className="mb-1  mr-3  overflow-hidden">
+            <span key={idx} className="strategy-lines inline-block   text-2xl md:text-6xl   ">
+            {word}
+            </span>
+            
+          </p>
+        ))
+      
+        }
+          
+        </div> 
 
-        <div className="py-4  ">
-          <p className="    mb-2 h-16 overflow-hidden">
-            <span className="strategy-lines inline-block text-2xl md:text-6xl ">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Data matters, yet it’s the emotion that drives
-            </span>
-          </p>
-          <p className="    mb-2 h-16 overflow-hidden">
-            <span className="strategy-lines inline-block text-2xl md:text-6xl  ">
-            buying decisions. We don’t believe in ‘one size fits
-            </span>
-          </p>
-          <p className="   mb-2 h-16 overflow-hidden " >
-            <span className="strategy-lines inline-block text-2xl md:text-6xl  ">
-            all.’ We craft unique brand experiences that
-            </span>
-          </p>
-          <p className="    mb-2 h-16 overflow-hidden">
-            <span className="strategy-lines inline-block text-2xl md:text-6xl ">
-            deeply resonate with your audience and boost
-            </span>
-          </p>
-          <div className="    mb-2 h-16 overflow-hidden">
-            <span className="strategy-lines inline-block  text-2xl md:text-6xl ">
-            your KPIs.
-            </span>
-          </div>
-        </div>
+        
 
       <h1 className="mt-[3vw] font-Rejoice text-3xl lg:text-[7vw] border-[1px] border-b-black border-transparent justifyBetween ">Get in touch. <span className="font-Rejoice  text-xl md: self-end flex  items-center py-2 md:py-5"><IoReturnDownForwardSharp/> contact</span></h1>
       <Slider/>

@@ -11,7 +11,7 @@ const Navbar = () => {
   const navBoxRef = useRef();
   const navRef = useRef();
   const h2Ref = useRef();
-  const location = useLocation();
+ 
   const [showNav, setShowNav] = useState(false);
   const [reelPlay, setReelPlay] = useState(false)
 
@@ -71,22 +71,22 @@ const Navbar = () => {
   
 
   const navoption = [
-    { id: 1, pageName: "Home", path: "/" },
-    { id: 2, pageName: "Works", path: "/Work" },
-    { id: 3, pageName: "Services & Models", path: "/Service" },
-    { id: 4, pageName: "About", path: "/About" },
-    { id: 5, pageName: "Contact", path: "/Contact" },
+    { id: 1, pageName: "Home", },
+    { id: 2, pageName: "Works",  },
+    { id: 3, pageName: "Services & Models",  },
+    { id: 4, pageName: "About",   },
+    { id: 5, pageName: "Contact", },
   ];
   return (
     <>
      <Reel playReel={reelPlay} setReelPlay={setReelPlay}/>
       <div ref={navRef} className="w-full h-28  fixed top-0 left-0 z-[999] justifyBetween  px-9 py-1 overflow-x-hidden ">
-        <Link to="/" className="relative flex items-center">
+        <a  className="relative flex items-center">
           <h1 className="nav-h1-left text-lg font-medium tracking-wide text-white">
             The Venture Agency.
           </h1>
           <img src="public/rejouice.svg" alt="" className="absolute  nav-logo opacity-0" />
-        </Link>
+        </a>
         <h1
           onClick={() => setShowNav(true)}
           className="nav-h1 underline-hover-effect text-lg font-medium tracking-wide cursor-pointer text-white "
@@ -97,7 +97,8 @@ const Navbar = () => {
 
       <div
         ref={navBoxRef}
-        className="fixed z-[9999] overflow-hidden px-9 top-0 left-0 h-[0] w-full bg-offwhite flex flex-col "
+        className="fixed z-[9999] overflow-hidden px-3 md:px-9 top-0 left-0 h-[0] w-full bg-offwhite flex flex-col
+         justify-end  md:justify-between   "
       >
         <h1
           onClick={() => setShowNav(false)}
@@ -106,8 +107,8 @@ const Navbar = () => {
           Close
         </h1>
 
-        <div className="w-full justifyBetween gap-40 ">
-          <div className="flex-1   content-start h-full">
+        <div className="w-full flex justify-start md:justifyBetween flex-col md:flex-row  gap-20 md:gap-40 ">
+          <div className="flex-1    content-start h-full">
             <img src="rejouice.svg" className="mb-1" alt="" />
 
             <div className="flex flex-col w-7/12 ">
@@ -128,17 +129,14 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          <div className="flex-1 flex flex-col gap-1 ">
+          <div className=" flex-1 flex flex-col gap-1 ">
             {navoption.map((option, idx) => (
-              <Link to={option.path} key={option.id}>
+              <a  key={option.id}>
                 <motion.h2
                   key={option.id}
                   whileHover="hover"
                   ref={h2Ref}
-                  className={` relative text-5xl overflow-hidden h-12 w-fit group ${
-                    location.pathname === option.path &&
-                    "underline decoration-solid decoration-2 decoration-black"
-                  } `}
+                  className={` relative text-3xl md:text-5xl overflow-hidden h-8 md:h-12 w-fit group `}
                 >
                   <motion.span
                     variants={{
@@ -161,7 +159,7 @@ const Navbar = () => {
                   </motion.span>
                   <span className="absolute left-0 bottom-0 h-[2px] w-full bg-black transform scale-x-0 transition-transform duration-300 ease-out group-hover:scale-x-100"></span>
                 </motion.h2>
-              </Link>
+              </a>
             ))}
             <motion.button
               whileHover="hover"
@@ -190,7 +188,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="justifyBetween border-t-[1px] py-2 border-black">
+        <div className=" flex flex-col md:flex-row items-start  md:justifyBetween border-t-[1px] py-2 border-black">
           <h4 className="text-base">
             Tomorrow's Brands, Today.<sup className="text-xs font-thin">Tm</sup>
           </h4>
@@ -202,7 +200,7 @@ const Navbar = () => {
                   initial={{ rotate: -45 }}
                   transition={{ duration: 0.3 }}
               >
-                <IoIosArrowRoundForward className="text-2xl" />
+                <IoIosArrowRoundForward className=" text-2xl" />
               </motion.span>
             </motion.div>
             <motion.div whileHover="hover" className="flexCenter  ">

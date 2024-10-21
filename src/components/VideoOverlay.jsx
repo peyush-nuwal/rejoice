@@ -8,13 +8,13 @@ const VideoOverlay = ({ videoSrc, imageSrc,logoSrc }) => {
   };
 
   const handleMouseLeave = () => {
-    videoRef.current.pause(); // Pause the video when not hovering
-    videoRef.current.currentTime = 0; // Reset the video to the beginning
+    videoRef.current.pause(); 
+    videoRef.current.currentTime = 0; 
   };
 
   return (
     <div
-      className=" w-[85%]  md:w-[33%] relative group mr-2 lg:mr-0 mb-2"
+      className=" w-[85%]   md:w-[33%] relative flex-shrink-0 group mr-2 lg:mr-0 mb-2"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
