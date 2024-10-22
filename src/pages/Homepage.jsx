@@ -194,7 +194,7 @@ const Homepage = () => {
             Play reel
           </div>
 
-          <h1 className="  overflow-hidden    h-[27vw] lg:h-[26vw] ">
+          <h1 className="  overflow-hidden    h-[29vw] lg:h-[26vw] ">
             {"rejouice".split("").map((letter, idx) => (
               <span
                 className="hero-span inline-block text-[25vw] lg:text-[27vw] font-medium font-Rejoice text-white leading-[27vw]"
