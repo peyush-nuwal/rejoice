@@ -121,7 +121,7 @@ const Footer = () => {
       <h1 className="  overflow-hidden text-center    h-[26vw]   ">
             {"rejouice".split("").map((letter, idx) => (
               <span
-                className="footer-span inline-block text-[25vw] lg:text-[26vw] font-medium font-Rejoice text-offwhite leading-[25vw]"
+                className="footer-span inline-block text-[22vw] lg:text-[26vw] font-medium font-Rejoice text-offwhite leading-[25vw]"
                 key={idx}
               >
                 {letter}
