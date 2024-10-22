@@ -258,18 +258,18 @@ const Homepage = () => {
                <div className="w-full h-[50vh] lg:h-auto  flex justify-between  overflow-x-scroll   mt-12 lg:mt-40">
             <VideoOverlay
              videoSrc="https://prismic-io.s3.amazonaws.com/rejouice/87835eca-32b7-4eeb-91fc-4ba0dad1fdec_Website-homepage-Work-01_1.mp4"
-        imageSrc="../../src/assets/imgs/truck.jpg"
-          logoSrc='../../src/assets/imgs/rivian.avif'
+        imageSrc="/assets/imgs/truck.jpg"
+          logoSrc='/assets/imgs/rivian.avif'
             />
            <VideoOverlay
             videoSrc="https://prismic-io.s3.amazonaws.com/rejouice/3492b027-4212-4103-b2e2-aa702345d784_Website-homepage-Work-02_1.mp4"
-        imageSrc="../../src/assets/imgs/oura.jpg"
-        logoSrc='../../src/assets/imgs/oura-svg.svg'
+        imageSrc="/assets/imgs/oura.jpg"
+        logoSrc='/assets/imgs/oura-svg.svg'
            />
          <VideoOverlay
            videoSrc="https://prismic-io.s3.amazonaws.com/rejouice/363f6760-3496-4638-8fc5-3b5d7711087c_Website-homepage-Work-03_1.mp4"
-        imageSrc="../../src/assets/imgs/truck.jpg"
-        logoSrc='../../src/assets/imgs/moxon-svg.svg'
+        imageSrc="/assets/imgs/truck.jpg"
+        logoSrc='/assets/imgs/moxon-svg.svg'
          />
 
 
