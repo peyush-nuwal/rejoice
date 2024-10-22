@@ -255,7 +255,7 @@ const Homepage = () => {
                <h5 className=" underline-hover-effect-black text-black  flex items-center gap-2 text-sm lg:text-2xl"> <IoReturnDownForwardSharp/> See the work</h5> 
                </div>
 
-               <div className="w-full h-[50vh]  flex justify-between  overflow-x-scroll   mt-12 lg:mt-40">
+               <div className="w-full h-[50vh] lg:h-auto  flex justify-between  overflow-x-scroll   mt-12 lg:mt-40">
             <VideoOverlay
              videoSrc="https://prismic-io.s3.amazonaws.com/rejouice/87835eca-32b7-4eeb-91fc-4ba0dad1fdec_Website-homepage-Work-01_1.mp4"
         imageSrc="../../src/assets/imgs/truck.jpg"
