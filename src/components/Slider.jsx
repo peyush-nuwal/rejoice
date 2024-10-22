@@ -25,38 +25,38 @@ export default function Slider() {
           className="mySwiper"
       >
         <SwiperSlide className='slide '> 
-            <img src="src/assets/imgs/swipe-1.webp" alt="" />
+            <img src="./src/assets/imgs/swipe-1.webp" alt="" />
         </SwiperSlide>
         <SwiperSlide className='slide'>
-        <img src="src/assets/imgs/swipe-4.webp" alt="" />
+        <img src="./src/assets/imgs/swipe-4.webp" alt="" />
         </SwiperSlide>
         <SwiperSlide className='slide'>
-        <img src="src/assets/imgs/swipe-2.webp" alt="" />
+        <img src="./src/assets/imgs/swipe-2.webp" alt="" />
         </SwiperSlide>
 
         <SwiperSlide className='slide'>
-        <img src="src/assets/imgs/swipe-3.webp" alt="" />
+        <img src="./src/assets/imgs/swipe-3.webp" alt="" />
         </SwiperSlide>
       
         <SwiperSlide className='slide'>
-        <img src="src/assets/imgs/swipe-5.webp" alt="" />
+        <img src="./src/assets/imgs/swipe-5.webp" alt="" />
         </SwiperSlide >
         
         <SwiperSlide className='slide'> 
-            <img src="src/assets/imgs/swipe-1.webp" alt="" />
+            <img src="./src/assets/imgs/swipe-1.webp" alt="" />
         </SwiperSlide>
         <SwiperSlide className='slide'>
-        <img src="src/assets/imgs/swipe-4.webp" alt="" />
+        <img src="./src/assets/imgs/swipe-4.webp" alt="" />
         </SwiperSlide>
         <SwiperSlide className='slide'>
-        <img src="src/assets/imgs/swipe-2.webp" alt="" />
+        <img src="./src/assets/imgs/swipe-2.webp" alt="" />
         </SwiperSlide>
         <SwiperSlide className='slide'> 
-        <img src="src/assets/imgs/swipe-3.webp" alt="" />
+        <img src="./src/assets/imgs/swipe-3.webp" alt="" />
         </SwiperSlide>
       
         <SwiperSlide className='slide'> 
-        <img src="src/assets/imgs/swipe-5.webp" alt="" />
+        <img src="./src/assets/imgs/swipe-5.webp" alt="" />
         </SwiperSlide>
       </Swiper>
     </>
