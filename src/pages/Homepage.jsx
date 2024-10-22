@@ -197,7 +197,7 @@ const Homepage = () => {
           <h1 className="  overflow-hidden    h-[26vw] ">
             {"rejouice".split("").map((letter, idx) => (
               <span
-                className="hero-span inline-block  text:text-[25vw] lg:text-[27vw] font-medium font-Rejoice text-white leading-[27vw]"
+                className="hero-span inline-block text-[25vw] lg:text-[27vw] font-medium font-Rejoice text-white leading-[27vw]"
                 key={idx}
               >
                 {letter}

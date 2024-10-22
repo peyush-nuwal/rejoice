@@ -118,10 +118,10 @@ const Footer = () => {
         </div>
     </div>
       <div className="w-full h-1/2  mt-5">
-      <h1 className="  overflow-hidden text-center    h-[26vw]  ">
+      <h1 className="  overflow-hidden text-center    h-[26vw]   ">
             {"rejouice".split("").map((letter, idx) => (
               <span
-                className="footer-span inline-block text:text-[24vw] lg:text-[26vw] font-medium font-Rejoice text-offwhite leading-[25vw]"
+                className="footer-span inline-block text-[25vw] lg:text-[26vw] font-medium font-Rejoice text-offwhite leading-[25vw]"
                 key={idx}
               >
                 {letter}
