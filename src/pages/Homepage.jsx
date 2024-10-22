@@ -189,7 +189,7 @@ const Homepage = () => {
           <div
             id="crsr"
             onClick={() => setReelPlay(true)}
-            className=" absolute top-0 left-0  -translate-x-1/2 -translate-y-1/2 w-32 h-32 rounded-full bg-orange  invisible md:visible  flexCenter select-none"
+            className=" absolute top-0 left-0  -translate-x-1/2 -translate-y-1/2 w-32 h-32 rounded-full bg-orange  invisible lg:visible  flexCenter select-none"
           >
             Play reel
           </div>
@@ -208,19 +208,19 @@ const Homepage = () => {
       </div>
 
       <div className="about w-full lg:h-screen px-3 lg:px-9 pt-4 my-10 ">
-        <div className="justifyBetween border-b-[1px] my-6 border-black overflow-hidden py-2 md:py-5">
-          <h4 className=" lines text-sm md:text-2xl flexCenter text-[#0e0e0e]">
+        <div className="justifyBetween border-b-[1px] my-6 border-black overflow-hidden py-2 lg:py-5">
+          <h4 className=" lines text-sm lg:text-2xl flexCenter text-[#0e0e0e]">
             Tomorrow's Brands, Today.
-            <sup className="text-xs md:text-sm font-extralight align-top">Tm</sup>
+            <sup className="text-xs lg:text-sm font-extralight align-top">Tm</sup>
           </h4>
-          <h4 className="lines text-sm md:text-2xl font-thin text-[#0e0e0e]">Paris/San Deigo</h4>
+          <h4 className="lines text-sm lg:text-2xl font-thin text-[#0e0e0e]">Paris/San Deigo</h4>
         </div>
 
 
         <div className=" py-4  flex flex-wrap">
         {`We are a venture firm and digital agency.Our mission is to transform founders' visions into remarkable brands. Choose  traditional compensation or an equity offset through our Venture Model — your vision, your decision.`.split(' ').map((word,idx)=>(
-            <p className="para1  mb-1 mr-3  overflow-hidden">
-            <span key={idx} className="lines inline-block   text-2xl md:text-6xl   ">
+            <p key={idx} className="para1  mb-1 mr-3  overflow-hidden">
+            <span  className="lines inline-block   text-2xl lg:text-6xl   ">
             {word}
             </span>
             
@@ -231,14 +231,14 @@ const Homepage = () => {
           
           
     
-          <div className="   mb-2  md:h-16 overflow-hidden">
+          <div className="   mb-2  lg:h-16 overflow-hidden">
           
           </div>
         </div>
       </div>
 
       <div className="models w-full min-h-screen px-3 lg:px-9 pt-4 ">
-          <p className="w-full flexCenter gap-2  md:text-lg">Agency & Venture <span className="rounded-full bg-black text-white px-3 py-1  text-xs md:text-sm">Models</span> <FaArrowTurnDown className="text-sm md:text-base"/> </p>
+          <p className="w-full flexCenter gap-2  lg:text-lg">Agency & Venture <span className="rounded-full bg-black text-white px-3 py-1  text-xs lg:text-sm">Models</span> <FaArrowTurnDown className="text-sm lg:text-base"/> </p>
           
           <div className="mt-5 group"> 
           <h1 className="overflow-hidden w-full text-center  lg:h-20">
@@ -250,9 +250,9 @@ const Homepage = () => {
           </div>
 
           <div className="mt-28   overflow-hidden">
-              <div className="justifyBetween border-b-2 border-black py-2 md:py-5">
-                <h5 className="text-sm md:text-2xl">Transforming visions into brands.</h5>
-               <h5 className=" underline-hover-effect-black text-black  flex items-center gap-2 text-sm md:text-2xl"> <IoReturnDownForwardSharp/> See the work</h5> 
+              <div className="justifyBetween border-b-2 border-black py-2 lg:py-5">
+                <h5 className="text-sm lg:text-2xl">Transforming visions into brands.</h5>
+               <h5 className=" underline-hover-effect-black text-black  flex items-center gap-2 text-sm lg:text-2xl"> <IoReturnDownForwardSharp/> See the work</h5> 
                </div>
 
                <div className="w-full h-[50vh]  flex justify-between  overflow-x-scroll   mt-12 lg:mt-40">
@@ -281,12 +281,12 @@ const Homepage = () => {
       </div>
       <div className="philosophy w-full min-h-screen px-3 lg:px-9 pt-4  my-10 ">
         <div className="justifyBetween  mt-6 overflow-hidden">
-          <h4 className=" philosophy-lines text-lg md:text-3xl flexCenter text-[#0e0e0e]">
+          <h4 className=" philosophy-lines text-lg lg:text-3xl flexCenter text-[#0e0e0e]">
             We operate on a simple philosophy:
           </h4>
         </div>
         <div className="justifyBetween border-b-[1px] pb-4 mb-6 border-black overflow-hidden">
-          <h4 className=" philosophy-lines  text-lg md:text-3xl flexCenter text-[#0e0e0e]">
+          <h4 className=" philosophy-lines  text-lg lg:text-3xl flexCenter text-[#0e0e0e]">
            Quality over quantity.
           </h4>
         </div>
@@ -295,7 +295,7 @@ const Homepage = () => {
         <div className=" py-4  flex flex-wrap">
         {` We partner with up to 5 clients each year. This allows intense focus on the transformation and launch of your brand by our very best team, which is the only team we have.  We specialize in  working with startups that are revolutionizing their industries.`.split(' ').map((word,idx)=>(
             <p className="    mb-1 mr-3  overflow-hidden">
-            <span key={idx} className="philosophy-lines inline-block   text-2xl md:text-6xl   ">
+            <span key={idx} className="philosophy-lines inline-block   text-2xl lg:text-6xl   ">
             {word}
             </span>
             
@@ -356,12 +356,12 @@ const Homepage = () => {
       </div>
       <div className="strategy w-full min-h-screen px-3 lg:px-9 pt-4 my-10 ">
         <div className="justifyBetween  mt-6 overflow-hidden">
-          <h4 className=" strategy-lines text-xl md:text-3xl flexCenter text-[#0e0e0e]">
+          <h4 className=" strategy-lines text-xl lg:text-3xl flexCenter text-[#0e0e0e]">
             Strategy & emotion.
           </h4>
         </div>
         <div className="justifyBetween border-b-[1px] pb-4 mb-6 border-black overflow-hidden">
-          <h4 className=" strategy-lines text-xl md:text-3xl flexCenter text-[#0e0e0e]">
+          <h4 className=" strategy-lines text-xl lg:text-3xl flexCenter text-[#0e0e0e]">
            You need both.
           </h4>
         </div>
@@ -369,8 +369,8 @@ const Homepage = () => {
   
         <div className=" py-4  flex flex-wrap pb-10">
         {` Data matters, yet it’s the emotion that drives buying decisions. We don’t believe in ‘one size fits all.’ We craft unique brand experiences that deeply resonate with your audience and boost your KPIs.`.split(' ').map((word,idx)=>(
-            <p className="mb-1  mr-3  overflow-hidden">
-            <span key={idx} className="strategy-lines inline-block   text-2xl md:text-6xl   ">
+            <p key={idx} className="mb-1  mr-3  overflow-hidden">
+            <span className="strategy-lines inline-block   text-2xl lg:text-6xl   ">
             {word}
             </span>
             
@@ -383,7 +383,7 @@ const Homepage = () => {
 
         
 
-      <h1 className="mt-[3vw] font-Rejoice text-3xl lg:text-[7vw] border-[1px] border-b-black border-transparent justifyBetween ">Get in touch. <span className="font-Rejoice  text-xl md: self-end flex  items-center py-2 md:py-5"><IoReturnDownForwardSharp/> contact</span></h1>
+      <h1 className="mt-[3vw] font-Rejoice text-3xl lg:text-[7vw] border-[1px] border-b-black border-transparent justifyBetween ">Get in touch. <span className="font-Rejoice  text-xl lg: self-end flex  items-center py-2 lg:py-5"><IoReturnDownForwardSharp/> contact</span></h1>
       <Slider/>
 
 
