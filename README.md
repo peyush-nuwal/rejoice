@@ -20,6 +20,7 @@ A pixel-perfect clone of the Awwwards website showcasing award-winning designs. 
    Shows a detailed view of each project with animations and smooth transitions.
 
    ![Project Screenshot](public/ss/s2.png)
+   ![Project Screenshot](public/ss/s3.png)
 
 
 ## Live Demo
