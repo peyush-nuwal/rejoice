@@ -36,7 +36,6 @@ First, clone the repository to your local machine.
 ```bash
 https://github.com/peyush-nuwal/rejoice.git
 
-t
 ```
 
 
