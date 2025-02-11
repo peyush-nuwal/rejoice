@@ -268,7 +268,7 @@ const Homepage = () => {
            />
          <VideoOverlay
            videoSrc="https://prismic-io.s3.amazonaws.com/rejouice/363f6760-3496-4638-8fc5-3b5d7711087c_Website-homepage-Work-03_1.mp4"
-        imageSrc="/assets/imgs/truck.jpg"
+        imageSrc="/assets/imgs/moxon.jpg"
         logoSrc='/assets/imgs/moxon-svg.svg'
          />
 
