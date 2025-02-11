@@ -308,7 +308,7 @@ const Homepage = () => {
 
 
         <div className="seats w-full h-[100vh] my-10 relative">
-          <video autoPlay loop muted src="https://rejouice.com/assets/videos/RJ-BALL-BLUE-ORANGE-scaled.webm" className="w-full h-full object-contain"></video>
+          <video autoPlay loop muted src="https://github.com/peyush-nuwal/rejoice/blob/main/public/RJ-BALL-BLUE-ORANGE-scaled.webm" className="w-full h-full object-contain"></video>
 
           <div className="absolute  top-0 left-0 w-full h-full flexCenter  ">
          <div className="seats-progress w-9/12 lg:w-1/3 ">
